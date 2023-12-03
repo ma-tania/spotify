@@ -1,0 +1,72 @@
+.section1 {
+    background-position: right;
+    height: 600px;
+    padding-left: 40%;
+    background-color: rgb(80, 156, 243);
+    color: white;
+    height: 600px;
+    padding-left: 40%;
+    display: flex;
+    @media (min-width: 481px){
+    .section1 {
+        background-image: url(../images/premium_dancer.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 600px;
+        padding-left: 40%;
+        }
+    }
+    @media (min-width: 1001px) {
+        .section1 {
+            background-image: url(../images/premium_dancer.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            height: 600px;
+            padding-left: 40%;
+        }
+    
+    }
+}
+/*.article {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 175px;
+}*/
+h1 {
+    position:absolute;
+    color: white;
+    top: 175px;
+    left: 15px;
+    font-size: 100px;
+    overflow-block: 150px;
+    font-family: "Roboto", sans-serif;
+    font-size: 300%;
+}
+h2{
+    display: flex;
+    position:relative;
+    color: white;
+    top: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Plans {
+    background-color: rgb(8, 170, 94);
+    color:white;
+    padding: 5px;
+    text-decoration: none;
+    top: 500px;
+    left: 50px;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+small {
+    position:absolute;
+    color: white;
+    top: 600px;
+    left: 50px;
+
+}

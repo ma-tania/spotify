@@ -1,0 +1,34 @@
+@import 'core/variables';
+@import 'core/reset';
+@import 'layout/header';
+@import 'layout/section-blue';
+@import 'layout/benefits';
+@import 'layout/footer';
+
+
+
+@media (min-width: 481px) {
+    .nav_toggle{
+        display: none;
+    }
+    .nav_menu{
+        display: flex;
+    }
+    .section1 {
+        background-image: url(../images/premium_dancer.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 600px;
+        padding-left: 40%;
+    }
+}
+@media (min-width: 1001px) {
+    .section1 {
+        background-image: url(../images/premium_dancer.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 600px;
+        padding-left: 40%;
+    }
+
+}

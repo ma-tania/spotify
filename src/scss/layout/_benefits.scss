@@ -1,0 +1,14 @@
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4 1fr);
+    align-items: center;
+    
+}
+    .benefits{
+
+}
+
+.benefit1{
+    justify-content: right;
+}
